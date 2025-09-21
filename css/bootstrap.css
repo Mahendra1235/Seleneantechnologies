@@ -9840,8 +9840,8 @@ button.bg-dark:focus {
   font-weight: bolder !important;
 }
 
-.font-italic {
-  font-style: italic !important;
+.font-weight-normal {
+  font-style: normal !important;
 }
 
 .text-white {
