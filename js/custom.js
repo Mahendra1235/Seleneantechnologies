@@ -10,8 +10,10 @@ getYear();
 // isotope js
 $(window).on('load', function () {
     var $grid = $(".grid").isotope({
-        itemSelector: ".burger, .pizza, .pasta, .fries, .Partnership",
-        percentPosition: false,
+        // itemSelector: ".burger, .pizza, .pasta, .fries, .Partnership",
+        itemSelector: ".burger, .pizza, .pasta, .fries, .frameworks",
+
+        percentPosition: true,
         masonry: {
             columnWidth: ".burger"
         },

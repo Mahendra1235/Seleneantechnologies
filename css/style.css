@@ -502,13 +502,16 @@ a:focus {
   color: #ffffff;
 }
 
+
 .food_section .box {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   position: relative;
   margin-top: 25px;
   background-color: #ffffff;
-  border-radius: 10px;
   color: #ffffff;
-  border-radius: 15px;
+  border-radius: 30px;
   overflow: hidden;
   background: linear-gradient(to bottom, #f1f2f3 25px, #222831 25px);
 }
