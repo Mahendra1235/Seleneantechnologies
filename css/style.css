@@ -112,7 +112,7 @@ a:focus {
 
 .bg-box img {
   width: 100%;
-  height: 100%;
+  height: 90%;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -139,8 +139,13 @@ a:focus {
 }
 
 .header_section {
-  padding: 15px 0;
+  padding: 5px 0px;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); 
+  position: relative;
+  z-index: 100;    
 }
+
 
 .header_section .container-fluid {
   padding-right: 25px;
@@ -153,8 +158,8 @@ a:focus {
 
 .navbar-brand span {
   font-weight: bold;
-  font-size: 32px;
-  color: #ffffff;
+  font-size: 30px;
+  color:black;
 }
 
 .custom_nav-container {
@@ -162,17 +167,19 @@ a:focus {
 }
 
 .custom_nav-container .navbar-nav {
-  padding-left: 18%;
+  padding-left: 60%;
 }
 
 .custom_nav-container .navbar-nav .nav-item .nav-link {
   padding: 5px 20px;
-  color: #ffffff;
+  color: black;
   text-align: center;
   text-transform: uppercase;
   border-radius: 5px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+    font-weight: bold;
+
 }
 
 .custom_nav-container .navbar-nav .nav-item:hover .nav-link, .custom_nav-container .navbar-nav .nav-item.active .nav-link {
@@ -333,7 +340,7 @@ a:focus {
 
 .slider_section #customCarousel1 {
   width: 100%;
-  position: unset;
+  /* position: unset; */
 }
 
 .slider_section .detail-box {
@@ -342,7 +349,7 @@ a:focus {
 }
 
 .slider_section .detail-box h1 {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 15px;
 }

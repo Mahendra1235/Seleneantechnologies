@@ -4184,6 +4184,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-nav {
+  font-size: 1.10rem;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
