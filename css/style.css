@@ -7,7 +7,7 @@ body {
 }
 
 .layout_padding {
-  padding: 90px 0;
+  padding: 20px 0;
 }
 
 .layout_padding2 {
@@ -91,8 +91,15 @@ a:focus {
 
 /*header section*/
 .hero_area {
+  /* background: linear-gradient(135deg, #12c2e9, #c471ed, #f64f59); */
+  background: radial-gradient(circle at top center, 
+                              #d1d1d1 0%,   /* very light grey, highlight */
+                              #a3a3a3 25%,  /* soft mid grey */
+                              #6e6e6e 60%,  /* darker grey for depth */
+                              #2b2b2b 85%,  /* deep charcoal */
+                              #111111 100%);
   position: relative;
-  min-height: 100vh;
+  min-height: 90vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -112,7 +119,7 @@ a:focus {
 
 .bg-box img {
   width: 100%;
-  height: 90%;
+  height: 85%;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -339,8 +346,8 @@ a:focus {
 }
 
 .slider_section #customCarousel1 {
-  width: 100%;
-  /* position: unset; */
+  width: 80%;
+  position: unset;
 }
 
 .slider_section .detail-box {
@@ -515,7 +522,7 @@ a:focus {
   flex-direction: column;
   height: 100%;
   position: relative;
-  margin-top: 25px;
+  margin-top: 20px;
   background-color: #ffffff;
   color: #ffffff;
   border-radius: 30px;
@@ -534,7 +541,7 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 215px;
+  height: 150px;
   border-radius: 0 0 0 45px;
   margin: -1px;
   padding: 25px;
@@ -542,7 +549,7 @@ a:focus {
 
 .food_section .box .img-box img {
   max-width: 100%;
-  max-height: 145px;
+  max-height: 100px;
   -webkit-transition: all .2s;
   transition: all .2s;
 }
